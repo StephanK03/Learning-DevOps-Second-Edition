@@ -1,0 +1,5 @@
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'CHAP09'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
